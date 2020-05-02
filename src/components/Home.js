@@ -157,8 +157,7 @@ return (
                   <h5>Being in Lockdown Showed Me How Selfish I Can Be</h5>
                 </span>
                 <p>
-                Winning the fight against unmet expectations.This quarantine learn how to 
-                imporve for better
+                Winning the fight against unmet expectations.Website created by Pranjal Doorwar
                 </p>
                 <a className="waves-effect waves-light btn card-btn">
                 Read More... <i className="material-icons right">arrow_right_alt</i>
