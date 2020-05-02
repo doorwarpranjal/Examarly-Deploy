@@ -12,7 +12,7 @@ return (
           
           Hey, Drop us a Message ! We would love to listen from you !
         </h5>
-        <form className=" Contact-form">
+        <form className=" Contact-form" name="Contact-form" netlify>
           <label>Name</label>
           <input type="text" />
           <label>Email</label>
