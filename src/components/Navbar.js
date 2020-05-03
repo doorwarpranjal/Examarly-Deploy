@@ -13,7 +13,7 @@ function Navbar(props) {
           <img src={require('../logotransparent.png') }  className="logo-image"/>
          
          </Link>
-          <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+          <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons menu-icon">menu</i></a>
           <ul className="right hide-on-med-and-down">
              <li>
                 <Link to='/'>

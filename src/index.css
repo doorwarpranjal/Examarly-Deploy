@@ -27,9 +27,9 @@ html{
 }
 
 .logo-image{
-  height: 85px;
-  margin-top: -14px;
-  margin-left: 30px;
+  height: 65px;
+  margin-top: -5px;
+  margin-left: 40px;
 }
 
 
@@ -269,10 +269,21 @@ h6{
   }
   
   .logo-image{
-    height: 75px;
-    margin-top: -11px;
+    height: 55px;
+    margin-top: 0px;
+    margin-left: 0;
     
   }
+
+nav .nav-wrapper {
+  height: 115% !important;
+}
+
+nav .sidenav-trigger i{
+  height: 90px;
+  font-size: 28px;
+  line-height: 60px;
+}
 
   .card-image{
     height: 37vh;
