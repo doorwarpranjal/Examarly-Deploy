@@ -20,7 +20,7 @@ function Navbar(props) {
                 Home</Link>      
              </li>
              <li>
-                <Link to='/contact'>
+                <Link to='/blogs'>
                 Blogs</Link> 
              </li>
              <li>
@@ -31,6 +31,7 @@ function Navbar(props) {
                 <Link to='/contact'>
                 Contact</Link> 
              </li>
+          
              
           </ul>
        </div>
@@ -41,7 +42,7 @@ function Navbar(props) {
           Home</Link>      
        </li>
        <li>
-          <Link to='/'>
+          <Link to='/blogs'>
           Blogs</Link>      
        </li>
        <li>
@@ -51,6 +52,7 @@ function Navbar(props) {
           <Link to='/contact'>
           Contact</Link> 
        </li>
+       
     </ul>
  </div>
   

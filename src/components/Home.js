@@ -63,6 +63,7 @@ return (
                 </span>
                 <p>
                 Blockchain, Cryptocurrency, Bitcoin… those are 3 buzz words we keep hearing about 😬. 
+                Lets learn it.
                 
                 </p>
                 <a className="waves-effect waves-light btn card-btn">
@@ -158,12 +159,6 @@ return (
             </div>
        </div>
 
-
-
-
-
-
-      
      </div>
   </div>
 );
