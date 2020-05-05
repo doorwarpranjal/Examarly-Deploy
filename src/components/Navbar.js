@@ -32,6 +32,12 @@ function Navbar(props) {
                 Contact</Link> 
              </li>
           
+          <li>
+                <Link style={{display:`none`}} to='/admin/blogs/writeblog'>
+                Write</Link> 
+             </li>
+          
+            
           </ul>
        </div>
     </nav>
