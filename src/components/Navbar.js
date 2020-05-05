@@ -32,7 +32,7 @@ function Navbar(props) {
                 Contact</Link> 
              </li>
           
-             
+            
           </ul>
        </div>
     </nav>
