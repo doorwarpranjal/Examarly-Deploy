@@ -4,7 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(56, 55, 55);
-  color: black;
+  
 }
 
 code {
@@ -45,7 +45,6 @@ html{
 }
 
 .main-column{
-
   background-color: white;
   height: 92vh;
   background-image: url('bg2-01.png');
@@ -54,7 +53,12 @@ html{
   background-repeat: no-repeat;
 }
 
-
+.main-heading{
+  font-weight: 700;
+  color: inherit;
+  font-size: 5rem;
+  margin-top: 0vh;
+  }
 
 .left-column{
 
@@ -129,12 +133,7 @@ h6{
 
 
 
-.main-heading{
-  font-weight: 700;
-  color: black;
-  font-size: 5rem;
-  margin-top: 0vh;
-  }
+
 
   .slogan{
     color: black;
@@ -176,6 +175,7 @@ h6{
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 5vh;
+ 
 }
 
 .card-content{
@@ -507,3 +507,50 @@ h6{
 .ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
   height: 50vh;
 }
+
+
+.main-heading{
+  animation : animate 1.2s ease-in-out 1 ;
+}
+
+.slogan{
+  animation : animate-slogan 2s ease-in-out 1 ;
+}
+
+.call-to-action,.brand-logo,.hide-on-med-and-down{
+  animation : animate-opacity 3s ease-in-out 1 ;
+}
+
+
+@keyframes animate-slogan {
+  0%{
+   transform: translateX(-100vw);
+  } 
+  100% {
+    transform: translateX(0vw);
+    
+    } 
+  }
+
+  @keyframes animate-opacity{
+    0%{
+     opacity: 0;
+     
+    } 
+    100% {
+      opacity: 1;
+      
+      } 
+    }
+
+  @keyframes animate {
+      0%{
+       transform: translateX(-100vw);
+       opacity: 0;
+      } 
+      100% {
+        transform: translateX(0vw);
+        opacity: 1;
+        
+        } 
+    }

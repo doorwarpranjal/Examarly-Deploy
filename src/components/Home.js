@@ -14,7 +14,7 @@ return (
           <div className=" col s12 m6 l6 brand-text">
             <h1 className="center main-heading"> Examarly</h1>
             <h5 className="center slogan">
-              Best Online preparation App. <br /> Learn in a Fun way !{" "}
+              Best Online preparation App. <br /> Early to every race!
             </h5>
             <a className="waves-effect waves-light btn call-to-action">
               <i className="material-icons left">call</i>Call Now
